@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*****************  Header Styles start ******************/
+.bacground_img{
+    background-image: url("../images/bacground_img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 782px;
+    position: relative;
+}
+
+.bacground-line{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+    position: absolute;
+}
+/*********************  Navbar Styles start  **************************/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    position: absolute;
+    margin: 17px 0 0 166px;
+    align-items: center;
+}
+
+.site-header-logo{
+    display: flex;
+    text-decoration: none;
+
+}
+.header-logo__img{
+    width: 25px;
+    height: 17px;
+    margin-right: 10px;
+}
+.header-logo-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 136px;
+    height: 22px;
+}
+.site-header-list{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    width: 445px;
+    height: 22px;
+    list-style: none;
+    margin: 41px 115px 37px 161px;
+}
+.site-header-item{
+    padding-left: 0;
+    margin-right: 22px;
+}
+
+.site-header-link{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.site-header-link:hover{
+    opacity: 1;
+}
+
+.navbar-end{
+    display: flex;
+}
+
+.navbar-end-lang{
+    display: flex;
+    align-items: center;
+    margin-right: 29px;
+}
+.flag{
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+}
+.language{
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 8px;
+}
+
+.navbar-end-link{
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar-end-login {
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 11px 28px 12px 29px;
+}
+
+/*********************  Navbar Styles end  **************************/
+
+
+.header-title{
+    position: absolute;
+    width: 578px;
+    height: 86px;
+    left: 450px;
+    top: 257px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 86px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header-description{
+    position: absolute;
+    width: 540px;
+    height: 124px;
+    left: 475px;
+    top: 382px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header-button{
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    left: 670px;
+    top: 545px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+/*****************  Header Styles end ******************/
+
