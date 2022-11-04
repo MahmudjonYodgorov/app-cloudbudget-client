@@ -161,4 +161,194 @@
     border-radius: 6px;
 }
 /*****************  Header Styles end ******************/
+/*****************  Main Styles start ******************/
+/******************   First Section Styles start  *****************/
+.first-section-wrapper{
+    width: 100%;
+    height: 500px;
+}
+.first-section-title{
+    position: absolute;
+    width: 451px;
+    height: 107px;
+    left: 195px;
+    top: 922px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+.first-section-description{
+    position: absolute;
+    width: 445px;
+    height: 115px;
+    left: 195px;
+    top: 1053px;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+}
+
+.first-section-link{
+    position: absolute;
+    width: 72px;
+    height: 20px;
+    left: 195px;
+    top: 1152px;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #ED4C5C;
+    text-decoration: none;
+}
+
+.first-section-wrapper__play{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 732px;
+    top: 999px;
+}
+
+.first-section-wrapper-bac_img{
+    background-image: url("../images/Video_bg.png");
+    position: absolute;
+    width: 445px;
+    height: 311px;
+    left: 765px;
+    top: 876px;
+    border-radius: 15px;
+}
+
+/******************  First Section Styles end *********************/
+
+/******************  Second Section Styles start *********************/
+.second-section-wrapper{
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 660px;
+}
+
+.card{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    left: 165px;
+    top: 1463px;
+    background: url("../images/img_1.png");
+    border-radius: 8px;
+}
+
+.card-text{
+    position: absolute;
+    width: 293px;
+    height: 198px;
+    left: 194px;
+    top: 1620px;
+    background: #FFFFFF;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.second-section-title{
+    position: absolute;
+    width: 1110px;
+    height: 55px;
+    left: 165px;
+    top: 1345px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+}
+
+.card-text-title{
+    margin-top: 33px;
+    margin-left: 32px;
+    width: 229px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+}
+
+.card-text-description{
+    margin-top: 20px;
+    margin-left: 32px;
+    width: 229px;
+    height: 57px;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #101010;
+}
+
+.card-text-more{
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 253px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #ED4C5C;
+}
+
+.card-2{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    left: 545px;
+    top: 1463px;
+    background: url("../images/img_2.png");
+    border-radius: 8px;
+}
+
+.card-text-2{
+    position: absolute;
+    width: 293px;
+    height: 198px;
+    left: 574px;
+    top: 1620px;
+    background: #FFFFFF;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card-3{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    left: 925px;
+    top: 1463px;
+    background: url("../images/img_3.png");
+    border-radius: 8px;
+}
+.card-text-3{
+    position: absolute;
+    width: 293px;
+    height: 198px;
+    left: 954px;
+    top: 1620px;
+    background: #FFFFFF;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+/******************  Second Section Styles end *********************/
+
+/*****************  Main Styles end ******************/
 
